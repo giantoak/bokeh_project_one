@@ -37,4 +37,25 @@ Things we could throw at the data to perhaps produce something useful. *NOT* som
 2. Put the data into UpSet.
 
 ## Things I'd like from Sotera
-Uncertain, as yet. But there will be something.
+Ingest of all the data into Newman!
+
+
+## Random call notes
+
+* "need to stick to the established model" (Database, GUI, etc.)
+* Mike wants to represent the volume of emails across multiple targets the goal
+* Want to stick with the XDATA catalog?
+
+* Why not Newman?
+  * several issues with getting full-featured stuff out of the XDATA catalog.
+    * need to find out if something is full featured
+    * we're biting off a big support challenge if we choose to use something.
+  * outlook messages are super compressed.
+
+* According to Hugh, Sotera will deal with ingesting the data into Newman.
+
+"Not a lot of data if it's to, from, and count"
+
+1. elastic for the messages
+2. igraph / snappy to turn elastic messages into graphs
+3. Tangelo working with loaded graph data.
